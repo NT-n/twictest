@@ -1,0 +1,42 @@
+html,body {
+    height: 100%;
+    margin:0;
+}
+.back{
+    height:100%;
+    width:100%;
+    background-color: #EAE2D6;
+    margin:0;
+}
+.bou{
+   height: 5%;
+   background-color: #867666;
+}
+.kabe{
+   height: 90%;
+   width: 50%;
+   margin-top: 20px;
+   margin-left: 25%;
+   background-color: #F7F2E0;
+}
+.hako{
+   height: auto;
+   width: 100%;
+}
+.hako .kobako{
+    height: 10%;
+    height: auto;
+    width: 100%;
+    /*[上][右][下][左]*/
+   margin: 0px 5px 5px 0px;
+   border-bottom:1px solid #77e3da;
+}
+.hako .kobako:first-child{
+    /*[上][右][下][左]*/
+   margin: 10px 5px 5px 0px;
+}
+.hako .kobako:last-child{
+    /*[上][右][下][左]*/
+   margin: 0px 5px 5px 5px;
+   border-bottom:none;
+}
